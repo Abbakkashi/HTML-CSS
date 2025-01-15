@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(4, 58, 27);
+}
+
+h1{
+    color:rgb(40, 216, 84);
+    background-color:rgb(6, 41, 16)
+}
+h2, h3, h4, h5, h6{
+
+    color:rgb(29, 173, 65);
+
+}
+
+p{
+    color: rgb(111, 172, 126);
+}
+
+
+
+a:link, a:visited{
+    color: rgb(111, 172, 126);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(40, 216, 84);
+    text-decoration:underline;
+}

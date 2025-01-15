@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(23, 23, 61);
+    text-align: center;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color:rgb(194, 206, 216);
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(194, 206, 216);
+}
+a:link, a:visited{
+    color:rgb(194, 206, 216);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(197, 229, 255);
+}

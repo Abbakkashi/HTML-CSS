@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/imagensmenor/arbusto.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <title>Exercicios das Midia</title>
+</head>
+<body>
+    <p>Mermão, aqui o, volte para <a href="index.html" rel="previous">primeira página</a></p>
+    <h1>Imagem dinamica</h1>
+    <p>Abra esta pagina em vários dispositos diferentes, ou apenas mude o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="/imagensmenor/imagemp-300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="/imagensmenor/imagemm-700.png" type="image/png">
+        <img src="/imagensmenor/imagemg-1000.png" alt="imagem flexivel">
+    </picture>
+    <!--<audio src="/imagensmenor/audiomeme.mp3" controls autoplay></audio>--> <!--MP3 WAV OGG-->
+    <h1>Reproduzindo audio</h1>
+    <p>Musiquinha boa dms</p>
+    <audio preload="metadata" controls>
+        <source src="/imagensmenor/audiomeme.mp3" type="audio/mpeg">
+        <source src="/imagensmenor/audiomeme.ogg" type="audio/ogg">
+        <source src="/imagensmenor/audiomeme.wav" type="audio/wav"> <!--Tentar evitar-->
+        <p>Não foi possivel reproduzir audio</p>
+    </audio>
+    <h1>Inserindo videos</h1>
+    <p>video abaixo keke</p>
+    <video controls poster="/imagensmenor/thePlan.png" width="300" loop>
+        <source src="/imagensmenor/videoclean.mp4" type="video/mp4">
+        <source src="/imagensmenor/videoclean.webm" type="video/webm">
+    </video>
+    <h1>Inserindo videos do Yt</h1>
+    <iframe width="300" height="169" src="https://www.youtube.com/embed/pPsb2WwuVYQ?si=uT4pC0w6G6IhNe1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
