@@ -60,19 +60,19 @@ section > p{
 }
 
 section.normal{
-    background-color: burlywood;
+    background-color: beige;
 }
 
 section.imagem{
     background-attachment: fixed;
-    background-color: beige;
+    background-color: burlywood;
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.288) ;
     background-size: cover;
 }
 
 
 section.imagem > p{
-    background-color:rgba(222, 184, 135, 0.418);
+    background-color:rgba(245, 245, 220, 0.26);
     border-radius: 5px;
     display: inline-block;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.164);
