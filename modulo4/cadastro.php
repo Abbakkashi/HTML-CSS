@@ -1,1 +1,0 @@
-Os dados foram enviados. Em breve tu aprenderá o que fazer com eles.
