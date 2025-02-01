@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* As outras mídias */
+
+/* Tipical Device Breakdown 
+pequenas telas: até 600px;
+celular: 600px até 768px;
+tablet: 769px até 992px;
+desktop: 993px até 1200px;
+grandes telas: acima de 1200px;
+*/
+
+@media print {
+    body{
+        /* background-image: url(../imagens/back-print.jpg); Vai dar certo n */
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main::after{
+        content: "Esta impressão foi feita através do site www.cursoemvideo.com";
+    }
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+        
+
+    img#Iphone{ display: none;}
+    img#Itablet{ display: none;}
+    img#Iprint{ display: block;}
+    img#Ipc{ display: none;}
+    img#Itv{ display: none;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    h1{
+        color:darkslategray;
+    }
+
+    img#Iphone{ display: none;}
+    img#Itablet{ display: block;}
+    img#Iprint{ display: none;}
+    img#Ipc{ display: none;}
+    img#Itv{ display: none;}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    h1{
+        color: indigo;
+    }
+
+    img#Iphone{ display: none;}
+    img#Itablet{ display: none;}
+    img#Iprint{ display: none;}
+    img#Ipc{ display: block;}
+    img#Itv{ display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    h1{
+        color:steelblue;
+    }
+
+    img#Iphone{ display: none;}
+    img#Itablet{ display: none;}
+    img#Iprint{ display: none;}
+    img#Ipc{ display: none;}
+    img#Itv{ display: block;}
+}
