@@ -1,0 +1,89 @@
+@charset "UFT-8";
+:root{
+    --corescura:#00171F;
+    --cormedia:#003459;
+    --corclara:#00A7E1;
+    --cordestaque:#ECA72C;
+    --corbranco:#F1FEC6;
+}
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    background-color: var(--corbranco);
+}
+
+header{
+    background-color:var(--cordestaque);
+}
+
+header > h1{
+    color: var(--corbranco);
+    text-align: center;
+    padding: 20px;
+}
+
+span#Iburger{
+    background-color: var(--corescura);
+    color: var(--corbranco);
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+span#Iburger:hover{
+    background-color: var(--corclara);
+    color: var(--corescura);
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    background-color: var(--cormedia);
+    border-top: 1px solid  var(--corescura);
+    color: var(--corbranco);
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+
+menu > ul > li > a:hover{
+    background-color: var(--corescura);
+}
+
+main{
+    background-color: whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.02);
+    margin: auto;
+    padding: 10px;
+    padding-top: 30px;
+    width: 90vw;
+    
+}
+
+article > h2{
+    color: var(--corclara);
+    padding-bottom: 15px;
+}
+
+article > p{
+
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
