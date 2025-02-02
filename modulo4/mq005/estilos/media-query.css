@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px){
+    span#Iburger{
+        display: none;
+    }
     
+    menu{
+        background-color: var(--cormedia);
+        border: 1px solid var(--corescura);
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+    menu > ul > li > a{
+        border-top: none;
+        border-radius: 5px 5px 0px 0px;
+    }
 }

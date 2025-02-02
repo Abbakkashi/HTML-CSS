@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Abbakkashi</h1>
         <span class="material-symbols-rounded" id="Iburger" onclick="clickMenu()">menu</span>
@@ -31,6 +31,14 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                Iitens.style.display = 'block'
+            } else {
+                Iitens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (Iitens.style.display == 'block'){
                 Iitens.style.display = 'none'

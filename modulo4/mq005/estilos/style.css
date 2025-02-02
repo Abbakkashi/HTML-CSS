@@ -4,7 +4,7 @@
     --cormedia:#003459;
     --corclara:#00A7E1;
     --cordestaque:#ECA72C;
-    --corbranco:#F1FEC6;
+    --corbranco:#fcf7cd;
 }
 
 
@@ -39,8 +39,7 @@ span#Iburger{
 }
 
 span#Iburger:hover{
-    background-color: var(--corclara);
-    color: var(--corescura);
+    text-shadow: 0px 1px 2px #f1fec68c;
 }
 
 menu{
