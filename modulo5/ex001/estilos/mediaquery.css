@@ -1,19 +1,18 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 600px) {
-    header{
-        flex-flow: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    header > h1{
-        flex: 0 0 auto
-    }
-    
-    header > nav{
-        flex-flow: column nowrap;
-        width: 95vw;
-    }
-
+header{
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
+
+header > h1{
+    flex: 0 0 auto;
+}
+
+header > nav > a{
+    flex-flow: column nowrap;
+    width: 95vw;
+}
+
+
