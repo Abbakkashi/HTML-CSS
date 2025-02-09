@@ -6,36 +6,40 @@
     padding: 0px;
 }
 
-html{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 body{
     background-color: beige;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
 }
 
 header{
     background-color: burlywood;
-    padding: 10px;
+    padding: 10px 20px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
 }
 
 header > h1{
+    flex: 0 0 200px;
     color: whitesmoke;
     font-size: 1.8em;
-    text-align: center;
     padding: 10px;
     text-shadow: 0px 0px 2px saddlebrown;
+    border: 1px dotted black;
 }
 
-nav{
+header > nav{
     display: flex;
-    flex: column nowrap;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     list-style-type: none;
-    margin: auto;
-    width: 90vw;
+    border: 1px dotted black;
 }
 
-nav a{
+header > nav > a{
     flex: auto;
     background-color: saddlebrown;
     border-radius: 3px;
@@ -46,8 +50,9 @@ nav a{
     padding: 5px;
 }
 
-nav a:hover{
+header > nav > a:hover{
     background-color: chocolate;
+    transition: background-color 0.2s;
 }
 
 main{
