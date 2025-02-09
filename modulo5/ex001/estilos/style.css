@@ -18,7 +18,7 @@ header{
     padding: 10px 20px;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     display: flex;
 }
 
@@ -28,7 +28,6 @@ header > h1{
     font-size: 1.8em;
     padding: 10px;
     text-shadow: 0px 0px 2px saddlebrown;
-    border: 1px dotted black;
 }
 
 header > nav{
@@ -36,7 +35,7 @@ header > nav{
     flex-flow: row wrap;
     justify-content: flex-end;
     list-style-type: none;
-    border: 1px dotted black;
+   
 }
 
 header > nav > a{
